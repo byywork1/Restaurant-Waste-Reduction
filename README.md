@@ -19,7 +19,7 @@ Using real sales data from a M Test Kitchen located in Cary, NC, this is a pilot
 * **Reservations & Covers Data** | Reservations and covers data was downloaded directly from the restaurant's OpenTable platform. Opentable data was considered the ground truth for covers data, however only aggregate data was available. Total covers is equal to total OpenTable cover counts.
 * TODO: Figure out how to differentiate indoor vs outdoor covers 
 
-* **Weather Data** | Weather data was accessed via the Open-Meteo API, as of 7:30 PM each day. The source code for the API call can be found [here](https://github.com/byywork1/Restaurant-Waste-Reduction/blob/main/Weather/Weather_Daily.py). The latitude and longitude for the restuarant, required to access the weather data, is accessed via the Google.
+* **Weather Data** | Weather data was accessed via the Open-Meteo API, as of 7:30 PM each day. The documentation for the API call can be found [here](https://open-meteo.com/en/docs/historical-weather-api). The latitude and longitude for the restuarant, required to access the weather data, is accessed via the Google.
 
 ### Repository Guide
 * [Open-Meteo API Call](https://github.com/byywork1/Restaurant-Waste-Reduction/blob/main/Weather/Weather_Daily.py)
