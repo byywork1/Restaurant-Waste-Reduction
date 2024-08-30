@@ -1,0 +1,25 @@
+Preliminary analysis performed for M Test Kitchen in Cary, NC.
+
+Coordinates used: 
+lattitude = 35.7804 
+longitude = 78.7580
+
+Dates used for model training: 
+start_date = '2023-06-01'
+end_date = '2024-06-01'
+
+Weather Variables Considered: 
+apparent_temperature_max,
+apparent_temperature_min,
+apparent_temperature_mean,
+sunrise,
+sunset,
+daylight_duration,
+sunshine_duration,
+precipitation_sum,
+rain_sum,
+snowfall_sum,
+precipitation_hours,
+wind_speed_10m_max,
+wind_gusts_10m_max,
+wind_direction_10m_dominant
